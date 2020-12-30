@@ -1,16 +1,16 @@
-import Head from 'next/head';
 import Nav from '../components/Nav';
-import Hero from '../components/Hero';
+import Head from 'next/head';
+import styles from '../styles/Main.module.scss';
 
-export default function Home() {
+export default function Contact() {
   return (
-    <div>
+    <div className={styles.container}>
       <Head>
         <title>Katherine Jack</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Nav />
-      <Hero />
+      Contact
     </div>
   );
 }
