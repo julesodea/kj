@@ -16,12 +16,12 @@ export default function Home() {
           </Link>
         </li>
         <li>
-          <Link href='/about'>
+          <Link href='/'>
             <a>About</a>
           </Link>
         </li>
         <li>
-          <Link href='/contact'>
+          <Link href='/'>
             <a>Contact</a>
           </Link>
         </li>
