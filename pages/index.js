@@ -2,10 +2,10 @@ import Head from 'next/head';
 import Nav from '../components/Nav';
 import Hero from '../components/Hero';
 import Footer from '../components/Footer';
-import data from '../components/data';
+// import data from '../components/data';
 
 export default function Home() {
-  data.map((res) => console.log(res));
+  // data.map((res) => console.log(res));
   return (
     <div>
       <Head>
@@ -13,9 +13,12 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Nav />
-      {data.map((res) => (
+      {/* {data.map((res) => (
         <Hero img={res} key={res} />
-      ))}
+      ))} */}
+
+      <Hero />
+      <Hero />
 
       <Footer />
     </div>

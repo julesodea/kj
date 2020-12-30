@@ -4,15 +4,19 @@ section.section {
   overflow: hidden;
 
   .img {
-    max-height: 65vh;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     object-fit: cover;
     width: 100%;
     margin: 4rem 0;
     transition: all 200ms ease;
+    background-color: rgb(231, 231, 231);
 
     &:hover {
       cursor: pointer;
-      transform: scale(1.02);
+      transform: scale(1.05);
       transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
     }
   }
