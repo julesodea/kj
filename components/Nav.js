@@ -4,7 +4,11 @@ import nav from '../styles/Nav.module.scss';
 export default function Home() {
   return (
     <nav className={nav.nav}>
-      <h1>Katherine Jack</h1>
+      <h1>
+        <Link href='/'>
+          <a>Katherine Jack</a>
+        </Link>
+      </h1>
       <ul>
         <li>
           <Link href='/'>

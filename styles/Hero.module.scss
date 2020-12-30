@@ -1,9 +1,19 @@
 section.section {
   width: 90%;
   margin: 0 auto;
-  img.img {
+  overflow: hidden;
+
+  .img {
     max-height: 65vh;
     object-fit: cover;
     width: 100%;
+    margin: 4rem 0;
+    transition: all 200ms ease;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.02);
+      transition: transform 4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    }
   }
 }
