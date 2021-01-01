@@ -4,7 +4,6 @@ section.section {
   overflow: hidden;
 
   .img {
-    height: 65vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,8 +11,11 @@ section.section {
     width: 100%;
     margin: 4rem 0;
     transition: all 200ms ease;
-    background-color: rgb(252, 252, 252);
+    font-size: 1.5rem;
 
+    h1 {
+      font-weight: 300;
+    }
     &:hover {
       cursor: pointer;
       // transform: scale(1.05);
